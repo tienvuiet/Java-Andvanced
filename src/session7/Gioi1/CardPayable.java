@@ -1,0 +1,5 @@
+package session7.Gioi1;
+
+public interface CardPayable extends PaymentMethod{
+    void processCreditCard(double amount);
+}
